@@ -1,0 +1,69 @@
+.landingOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.landingCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1em;
+    /* margin: 0; */
+    margin-top: 20px;
+    padding: 0;
+    width: 70%;
+    transform: rotate(-8deg);
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+
+}
+.nameBanner {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.landingCard2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.oemBanner {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+.oemTag {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-left: 8px;
+    padding: 0;
+}
+
+.introCard {
+    height: 400px;
+    width: 400px;
+    /* z-index: -1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 1em; */
+    transform: rotate(6deg);
+    font-size: 20px;
+}
+.innerIntroCard{
+    transform: rotate(0deg);
+    margin-left: 10px;
+    padding: 8px;
+
+}
+
+

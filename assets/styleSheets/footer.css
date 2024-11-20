@@ -1,0 +1,36 @@
+/* footer */
+.footerCont{
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+    justify-content: space-between;
+    margin-top: 50px;
+    bottom: 0;
+   
+}
+.creditsCont {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.footerTxt {
+    font-size: 30px;
+    margin: 3px;
+}
+.reactLogo {
+    height: 60px;
+    width: 60px;
+}
+.reduxLogo {
+    height: 75px;
+    width: 75px;
+}
+
+
+.copyrightCont>p{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}

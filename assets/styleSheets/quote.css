@@ -1,0 +1,49 @@
+
+
+.quoteCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+.quoteCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    border-radius: 1em;
+}
+.quoteButton{
+    padding: 7px;
+    border: solid 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15px;
+    border-radius: 5px;
+    justify-content: end;
+    position: absolute;
+    bottom: 20%;
+}
+.author {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.authorName {
+    margin-left: 4px;
+}
+.quote {
+    margin: 25px;
+    text-align: center;
+    /* color: white; */
+    
+}
+.author {
+    position: absolute;
+    bottom: 30%;
+}

@@ -1,0 +1,56 @@
+.aboutOuter {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+   
+}
+
+.infoCard {
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardHolder1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* margin-right: 30px; */
+
+}
+
+.infoCard1 {
+    transform: rotate(9deg);
+}
+
+.mainCardHolder {
+    /* margin-top: 25px; */
+    text-align: center;
+    height: 600px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding: 10px; */
+    
+}
+
+.cardHolder2 {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: 30px; */
+}
+
+.infoCard2 {
+    transform: rotate(-9deg);
+}
+
+@media  (max-width: 680px) {
+    .mainCardHolder {
+       order: -1;
+    }
+}

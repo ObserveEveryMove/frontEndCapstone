@@ -1,0 +1,106 @@
+/* also located in dash.css */
+.magic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: shake .25s; */
+
+}
+
+
+.ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, gray, black, darkslategray);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    animation: shake .25s;
+}
+
+
+.askBtn {
+
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: darkblue;
+    color: lightblue;
+    box-shadow:
+        1px 1px rgb(80, 140, 230),
+        -.15em .15em 0.4em rgb(13, 230, 219);
+}
+
+.eightBtn {
+    font-size: 50px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: darkblue;
+    color: lightblue;
+    box-shadow:
+        1px 1px rgb(80, 140, 230),
+        -.15em .15em 0.4em rgb(13, 230, 219);
+}
+
+.askBtnClicked {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: purple;
+    color: dodgerblue;
+    font-size: 30px;
+    box-shadow:
+        1px 1px rgb(80, 140, 230),
+        -.15em .15em 0.4em rgb(13, 230, 219);
+    animation: shakeBtn .25s;
+}
+
+.ballShake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, gray, black, darkslategray);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    animation: shakeBall .30s;
+}
+
+
+/* @keyframes shakeBall {
+    50% {
+        transl;
+    }
+    
+} */
+
+
+@keyframes shakeBtn {
+    0% {
+        transform: scaleY(2);
+        border: none;
+
+    }
+
+    25% {
+        transform: scaleX(2);
+        border: none;
+
+    }
+
+    50% {
+        transform: scaleY(2);
+        border: none;
+
+
+    }
+
+    100% {
+        transform: scaleX(2);
+        border: none;
+
+
+    }
+}

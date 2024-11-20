@@ -1,0 +1,64 @@
+@import url(./assets/styleSheets/landing.css);
+@import url(./assets/styleSheets/nav.css);
+@import url(./assets/styleSheets/hamNav.css);
+@import url(./assets/styleSheets/contact.css);
+@import url(./assets/styleSheets/about.css);
+@import url(./assets/styleSheets/footer.css);
+@import url(./assets//styleSheets/projects.css);
+@import url(./assets/styleSheets/resume.css);
+@import url(./assets/styleSheets/quote.css);
+@import url(./assets/styleSheets/pomodoro.css);
+@import url(./assets/styleSheets/drum.css);
+@import url(./assets//styleSheets/magic.css);
+
+@import url(./assets/css/all.css);
+@import url(./assets/webfonts/all.min.css);
+@import url(./assets/css/animate.css);
+
+/* body{
+ background-color: #8081ff;
+} */
+
+.appWrap {
+    background-color: #8081ff;
+    height: 100%;
+    width: 100%;
+}
+
+.primaryBg {
+ background-color: #8080ff;
+}
+.secondaryBg {
+    background-color:#4da6ff ;
+}
+.primaryTxt {
+    /* color: #a31aff; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.secondaryTxt {
+    color: #47ebca;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+}
+.limeBorder {
+    border: solid 3px #47ebca;
+}
+.paperShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.primaryNightMode {
+    background-color: black;
+   
+}
+
+.secondaryNightMode {
+    background-color: darkslategray;
+  
+}
+
+.primaryNightText {
+    color: white;
+}
+

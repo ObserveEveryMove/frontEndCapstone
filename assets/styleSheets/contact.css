@@ -1,0 +1,64 @@
+.contactFormCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.contactForm{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.messageCont {
+    margin-top: 30px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactLinksCont {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    border-radius: 1em;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactText {
+    padding: 0;
+    margin: 0;
+}
+
+.messageTxt {
+    text-align: center;
+}
+
+.contactIcon {
+    height: 50px;
+    width: 50px;
+    margin: 1em;
+}
+
+.confirmed {
+    border: solid 3px #47ebca;
+    box-shadow:
+        1px 1px #47ebca,
+        .25em .25em 5em white;
+}
+.confirm {
+    border: 3px solid rgb(252, 167, 153);
+    box-shadow:
+        1px 1px rgb(248, 147, 147),
+        .25em .25em 5em rgb(243, 134, 134);
+}

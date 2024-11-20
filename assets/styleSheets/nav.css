@@ -1,0 +1,31 @@
+.navCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+    padding-top: 50px;
+    margin-bottom: 50px;
+    z-index: 5;
+}
+.navBar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 5;
+  
+   
+}
+
+/* .navOuter{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+} */
+.settingsButton {
+font-size: 40px;
+background: none;
+border: none;
+}
+
+

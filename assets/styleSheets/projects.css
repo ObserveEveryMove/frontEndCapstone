@@ -1,0 +1,47 @@
+.projectsOuter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+/* .projectLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.projectLinks {
+   margin: 35px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* text-decoration: none; */
+}
+
+.projectsCont {
+    height: 600px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectLinkTxt{
+    font-size: 30px;
+    margin: 9px;
+}
+
+.projectViewsOuter {
+    display: flex;
+    /* flex-direction: column; */
+}
+.projectViewsInner{
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollBtn {
+    font-size: 30px;
+    border: none;
+    background: none;
+}

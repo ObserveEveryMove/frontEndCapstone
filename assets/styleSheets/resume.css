@@ -1,0 +1,43 @@
+.resumeOuter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.languageContOuter{
+    transform: rotate(18deg);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.languageContInner {
+   
+    padding: 10px; 
+    transform: rotate(-18deg);
+
+}
+
+.languageContInner2 {
+    padding: 10px;
+    transform: rotate(-36deg);
+}
+
+.langIcon {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+   
+}
+
+.langIcon:hover {
+    transform: scale(1.15);
+    
+}
